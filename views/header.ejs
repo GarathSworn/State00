@@ -6,6 +6,12 @@
     <div id='header-logo-div'><a href="/">State00</a></div>
     <!--- If user is logged in--->
     <% if (session.username) { %>
+      <div id='header-comms'>
+        <img src="/public/images/msg.gif" />
+      </div>
+      <div id='header-comms'>
+        <img src="/public/images/forum.gif" />
+      </div>
       <div id='header-logo-div2'><a href='/sign-out'>Sign Out</a></div>
     <% }else{ %>
       <div id='header-logo-div2'>
