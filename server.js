@@ -45,7 +45,8 @@ mongodb.connect(url, function(err, client) {
   require('./routes/admin')(app);
   // Render the dashboard page on request
   require('./routes/dashboard')(app);
-
+  require('./routes/profile')(app);
+  require('./routes/state')(app);
   require('./routes/log-in')(app);
 
   // REAL TIME SERVER EMITS AND LISTENERS HERE -------------------------------------------------------------
