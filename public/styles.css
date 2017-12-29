@@ -53,3 +53,10 @@ h2, a{
   flex-grow: 0;
   flex-shrink: 0;
 }
+#header-leaderboards{
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-right: 5px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
